@@ -1,0 +1,30 @@
+[[package]]
+category = "main"
+description = "find files and dirs"
+name = "find"
+optional = false
+python-versions = "*"
+version = "2019.4.13"
+
+[package.dependencies]
+public = "*"
+setuptools = "*"
+
+[[package]]
+category = "main"
+description = "replace '__all__' with '@public.add' decorator"
+name = "public"
+optional = false
+python-versions = "*"
+version = "2019.4.13"
+
+[package.dependencies]
+setuptools = "*"
+
+[metadata]
+content-hash = "045217eae6a3c86fd57c7a00ab38912544ada18f5db359d476c0bb06976f767a"
+python-versions = "^3.7"
+
+[metadata.hashes]
+find = ["e79d54fac2aec13eee6fc6954994ae348b076abefb9235f765d9dca89cb05fef"]
+public = ["e1436a8a99693a9849dfe40b9158f3837b7c309c163b2d3f5b8e9fce23876db1"]

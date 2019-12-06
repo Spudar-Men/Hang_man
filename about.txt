@@ -1,0 +1,3 @@
+This is my first Python programming project but also my first programming project ever.
+Let's see how far I can come from here.
+Wish me good luck. 
